@@ -1,5 +1,1 @@
 /*  your css code here. If applicable */
-function onDOMLoad() {
-            document.body.innerHTML = "DOM load success";
-        }
-document.addEventListener("DOMContentLoaded", onDOMLoad);
