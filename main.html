@@ -2,13 +2,17 @@
 
 <html>
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>DOM Load</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const body = document.body;
+            body.innerText = 'DOM load success';
+        });
+    </script>
 </head>
-
-<body>
-	<!-- the entire body must be written by student -->
-
-</body>
-
+<body></body>
 </html>
