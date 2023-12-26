@@ -1,4 +1,7 @@
 //your JS code here. If required.
 function onDOMLoad() {
-            document.body.innerHTML += "<p>DOM load success</p>";
+	const para = document.createElement("p");
+	para.innerText = "DOM load success";
+	document.body.appendChild(para);
 }
+onDOMLoad();
